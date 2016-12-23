@@ -151,7 +151,6 @@ input {
     border-radius: 7px; }
   .site-wrapper.wrapper .b-wrapper__window.window .window__contain.contain .contain__form.form input {
     height: 40px;
-    color: #1a1a1a;
     border: 1px solid #ddd;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -160,12 +159,20 @@ input {
     border-radius: 7px;
     color: #1a1a1a; }
     .site-wrapper.wrapper .b-wrapper__window.window .window__contain.contain .contain__form.form input::-webkit-input-placeholder {
+      text-align: center;
+      font-size: 16px;
       color: #ddd; }
     .site-wrapper.wrapper .b-wrapper__window.window .window__contain.contain .contain__form.form input::-moz-placeholder {
+      text-align: center;
+      font-size: 16px;
       color: #ddd; }
     .site-wrapper.wrapper .b-wrapper__window.window .window__contain.contain .contain__form.form input::-moz-placeholder {
+      text-align: center;
+      font-size: 16px;
       color: #ddd; }
     .site-wrapper.wrapper .b-wrapper__window.window .window__contain.contain .contain__form.form input::-ms-input-placeholder {
+      text-align: center;
+      font-size: 16px;
       color: #ddd; }
   .site-wrapper.wrapper .b-wrapper__window.window .window__footer {
     background-color: rgba(21, 141, 225, 0.01);
