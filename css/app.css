@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  font-size: 14px;
+  color: #4d4d4d; }
+
+input {
+  width: 100%;
+  height: 100%;
+  padding-left: 15px;
+  padding-right: 15px; }
+
+.logo-sguare img {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+.btn-blue {
+  background-color: #2d90fc;
+  color: #fff;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear; }
+  .btn-blue:hover {
+    background-color: #2473ca; }
+
+.tac {
+  text-align: center; }
+
+.lhn {
+  line-height: normal; }
+
+.webterminal-title {
+  letter-spacing: 1px;
+  color: #4d4d4d;
+  font-weight: 600;
+  font-family: open sans; }
+
+.blue-link {
+  text-decoration: underline;
+  color: #1584d4; }
+
+.blue-link:hover {
+  text-decoration: none; }
+
+.dib {
+  display: inline-block;
+  vertical-align: middle; }
+
+.logo-title {
+  margin-bottom: 25px; }
+
+.fluid {
+  width: 100%; }
+
+.mb30 {
+  margin-bottom: 30px; }
+
+.mb5 {
+  margin-bottom: 5px; }
+
+.button {
+  border-radius: 7px;
+  text-decoration: none;
+  border: 1px solid #c8c8c8;
+  background: #fff;
+  line-height: 38px;
+  padding: 0 25px;
+  display: inline-block;
+  color: #0085fc;
+  font-weight: 400;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  margin-left: 15px;
+  margin-right: 15px; }
+
+.button:hover {
+  background: #0085fc;
+  border-color: #0085fc;
+  color: #fff; }
+
+.logo {
+  width: 322px;
+  max-width: 90%; }
+
+.site-wrapper {
+  min-height: 100vh;
+  line-height: 100vh; }
+
+.site-wrapper.wrapper .b-wrapper__window {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.15);
+  background: #fff;
+  display: inline-block;
+  width: 360px;
+  line-height: 1.2em;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+  .site-wrapper.wrapper .b-wrapper__window.window .container {
+    padding: 20px; }
+  .site-wrapper.wrapper .b-wrapper__window.window .window__header.header .header__title {
+    color: #1a1a1a;
+    font-size: 22px;
+    font-weight: normal;
+    font-style: normal;
+    margin-bottom: 15px; }
+  .site-wrapper.wrapper .b-wrapper__window.window .window__header.header .header__logo {
+    max-width: 60px;
+    height: 60px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 30px; }
+  .site-wrapper.wrapper .b-wrapper__window.window .window__header.header .header__warning {
+    color: #e51c23;
+    font-size: 14px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: 0.3px;
+    margin-bottom: 35px; }
+  .site-wrapper.wrapper .b-wrapper__window.window .window__contain.contain .contain__notification {
+    font-size: 12px;
+    color: #aaaaaa;
+    margin-bottom: 10px; }
+  .site-wrapper.wrapper .b-wrapper__window.window .window__contain.contain .contain__form.form .form__input-wrapper {
+    width: 100%;
+    max-height: 40px;
+    height: 100%;
+    border-radius: 7px;
+    margin-bottom: 15px; }
+  .site-wrapper.wrapper .b-wrapper__window.window .window__contain.contain .contain__form.form button {
+    height: 40px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    border: none;
+    text-align: center;
+    border-radius: 7px; }
+  .site-wrapper.wrapper .b-wrapper__window.window .window__contain.contain .contain__form.form input {
+    height: 40px;
+    border: 1px solid #ddd;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    box-shadow: none;
+    border-radius: 7px;
+    color: #1a1a1a; }
+  .site-wrapper.wrapper .b-wrapper__window.window .window__footer {
+    background-color: rgba(21, 141, 225, 0.01);
+    box-shadow: 0 -1px 0 0 rgba(0, 0, 0, 0.07);
+    padding-top: 20px;
+    padding-bottom: 20px; }
+    .site-wrapper.wrapper .b-wrapper__window.window .window__footer.footer .footer__link {
+      color: #007ee5;
+      font-size: 14px;
+      letter-spacing: 0.3px;
+      text-decoration: none; }
+      .site-wrapper.wrapper .b-wrapper__window.window .window__footer.footer .footer__link:hover {
+        text-decoration: underline; }
+      .site-wrapper.wrapper .b-wrapper__window.window .window__footer.footer .footer__link .icon-arrow {
+        margin-right: 10px;
+        display: inline;
+        max-width: 9px;
+        width: 100%;
+        height: auto; }
+
+/*# sourceMappingURL=app.css.map */
