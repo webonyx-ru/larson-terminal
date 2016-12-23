@@ -122,6 +122,7 @@ input
 .site-wrapper
     &.wrapper
         .b-wrapper__window
+            vertical-align: middle
             box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.15)
             background: #fff
             display: inline-block
@@ -185,6 +186,7 @@ input
 
                                 input
                                     height: 40px
+                                    color: #1a1a1a
                                     border: 1px solid #ddd
                                     -webkit-box-sizing: border-box
                                     -moz-box-sizing: border-box
@@ -192,6 +194,14 @@ input
                                     box-shadow: none
                                     border-radius: 7px
                                     color: #1a1a1a
+                                    &::-webkit-input-placeholder
+                                        color: #ddd
+                                    &::-moz-placeholder
+                                        color: #ddd
+                                    &::-moz-placeholder
+                                        color: #ddd
+                                    &::-ms-input-placeholder
+                                        color: #ddd
                 .window__footer
                     background-color: rgba(21, 141, 225, 0.01)
                     box-shadow: 0 -1px 0 0 rgba(0, 0, 0, 0.07)
