@@ -108,6 +108,9 @@ input
     border-color: #0085fc
     color: #fff
 
+.lh24
+    line-height: 24px
+
 
 .logo
     width: 322px
@@ -119,112 +122,106 @@ input
     line-height: 100vh
 
 
-.site-wrapper
-    &.wrapper
-        .b-wrapper__window
-            vertical-align: middle
-            box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.15)
-            background: #fff
-            display: inline-block
-            width: 360px
-            line-height: 1.2em
-            -webkit-box-sizing: border-box
-            -moz-box-sizing: border-box
-            box-sizing: border-box
-            &.window
-                .container
-                    padding: 20px
-                .window__header
-                    &.header
-                        .header__title
-                            color: #1a1a1a
-                            font-size: 22px
-                            font-weight: normal
-                            font-style: normal
-                            margin-bottom: 15px
+.b-ios-application
+    vertical-align: middle
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.15)
+    background: #fff
+    display: inline-block
+    max-width: 360px
+    width: 100%
+    line-height: 1.2em
+    -webkit-box-sizing: border-box
+    -moz-box-sizing: border-box
+    box-sizing: border-box
+    padding: 20px
+    &__header
+        &-title
+            color: #1a1a1a
+            font-size: 22px
+            font-weight: normal
+            font-style: normal
+            margin-bottom: 15px
+            line-height: 24px
 
-                        .header__logo
-                            max-width: 60px
-                            height: 60px
-                            width: 100%
-                            margin: 0 auto
-                            margin-bottom: 30px
+        &-logo
+            max-width: 62px
+            height: 62px
+            width: 100%
+            margin: 0 auto
+            margin-bottom: 30px
 
-                        .header__warning
-                            color: #e51c23
-                            font-size: 14px
-                            font-weight: 600
-                            font-style: normal
-                            font-stretch: normal
-                            letter-spacing: 0.3px
-                            margin-bottom: 35px
-                .window__contain
-                    &.contain
-                        .contain__notification
-                            font-size: 12px
-                            color: #aaaaaa
-                            margin-bottom: 10px
+        &-warning
+            color: #e51c23
+            font-size: 14px
+            font-weight: 600
+            font-style: normal
+            font-stretch: normal
+            letter-spacing: 0.3px
+            margin-bottom: 35px
+    &__contain
+        &-notification
+            font-size: 12px
+            color: #aaaaaa
+            margin-bottom: 10px
 
-                        .contain__form
-                            &.form
-                                .form__input-wrapper
-                                    width: 100%
-                                    max-height: 40px
-                                    height: 100%
-                                    border-radius: 7px
-                                    margin-bottom: 15px
+        &-form
+            .form__input-wrapper
+                width: 100%
+                max-height: 40px
+                height: 100%
+                border-radius: 7px
+                margin-bottom: 15px
 
-                                button
-                                    height: 40px
-                                    -webkit-box-sizing: border-box
-                                    -moz-box-sizing: border-box
-                                    box-sizing: border-box
-                                    width: 100%
-                                    border: none
-                                    text-align: center
-                                    border-radius: 7px
+            button
+                height: 40px
+                -webkit-box-sizing: border-box
+                -moz-box-sizing: border-box
+                box-sizing: border-box
+                width: 100%
+                border: none
+                text-align: center
+                border-radius: 7px
 
-                                input
-                                    height: 40px
-                                    border: 1px solid #ddd
-                                    -webkit-box-sizing: border-box
-                                    -moz-box-sizing: border-box
-                                    box-sizing: border-box
-                                    box-shadow: none
-                                    border-radius: 7px
-                                    color: #1a1a1a
-                                    &::-webkit-input-placeholder
-                                        text-align: center
-                                        font-size: 16px
-                                        color: #ddd
-                                    &::-moz-placeholder
-                                        text-align: center
-                                        font-size: 16px
-                                        color: #ddd
-                                    &::-moz-placeholder
-                                        text-align: center
-                                        font-size: 16px
-                                        color: #ddd
-                                    &::-ms-input-placeholder
-                                        text-align: center
-                                        font-size: 16px
-                                        color: #ddd
-                .window__footer
-                    background-color: rgba(21, 141, 225, 0.01)
-                    box-shadow: 0 -1px 0 0 rgba(0, 0, 0, 0.07)
-                    padding-top: 20px
-                    padding-bottom: 20px
-                    &.footer
-                        .footer__link
-                            color: #007ee5
-                            font-size: 14px
-                            letter-spacing: 0.3px
-                            text-decoration: none
-                            &:hover
-                                text-decoration: underline
-                            .icon-arrow
-                                margin-right: 10px
-                                display: inline
-                                max-width: 9px
-                                width: 100%
-                                height: auto
+            input
+                height: 40px
+                border: 1px solid #ddd
+                -webkit-box-sizing: border-box
+                -moz-box-sizing: border-box
+                box-sizing: border-box
+                box-shadow: none
+                border-radius: 7px
+                color: #1a1a1a
+                &::-webkit-input-placeholder
+                    text-align: center
+                    font-size: 16px
+                    color: #ddd
+                &::-moz-placeholder
+                    text-align: center
+                    font-size: 16px
+                    color: #ddd
+                &::-moz-placeholder
+                    text-align: center
+                    font-size: 16px
+                    color: #ddd
+                &::-ms-input-placeholder
+                    text-align: center
+                    font-size: 16px
+                    color: #ddd
+    &__footer
+        background-color: rgba(21, 141, 225, 0.01)
+        box-shadow: 0 -1px 0 0 rgba(0, 0, 0, 0.07)
+        padding-top: 20px
+        padding-bottom: 20px
+        &-link
+            color: #007ee5
+            font-size: 14px
+            letter-spacing: 0.3px
+            text-decoration: none
+            &:hover
+                text-decoration: underline
+            .icon-arrow
+                margin-right: 10px
+                display: inline
+                max-width: 9px
+                width: 100%
+                height: auto
